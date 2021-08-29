@@ -6,9 +6,6 @@ function Login() {
         function onLoginClick(event) {
           history.push({
             pathname: "/home",
-            query: "",
-            state: {
-            },
           });
         }
 

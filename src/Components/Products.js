@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import Card from './Card.js';
+import {useState,useEffect} from 'react'
 
 function Products() {
+
     return (
         <div class="latest-products">
             <div class="container">
@@ -8,7 +11,6 @@ function Products() {
                     <div class="col-md-12">
                         <div class="section-heading">
                             <h2>Latest Products</h2>
-                            <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4">
